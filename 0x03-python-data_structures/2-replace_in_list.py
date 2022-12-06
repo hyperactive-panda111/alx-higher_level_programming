@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def replace_in_list(ce_in_list(my_list, idx, element):
+def replace_in_list(my_list, idx, element):
     if idx < 0:
         return (my_list)
 
@@ -10,4 +10,4 @@ def replace_in_list(ce_in_list(my_list, idx, element):
 
     my_list[idx] = element
 
-    return (my_list)my_list, idx):
+    return (my_list)
