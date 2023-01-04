@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-"""
-Super simple Square Module.
-
-"""
+"""Super simple Square Module."""
 
 
 class Square:
