@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Module to determine if an obj is a type of a class"""
 def is_same_class(obj, a_class):
     """ Function that returns True/False if obj is a type of a_class
 
