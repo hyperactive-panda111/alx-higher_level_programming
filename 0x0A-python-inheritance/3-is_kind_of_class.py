@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ Function determines if obj is member of class"""
 
+
 def is_kind_of_class(obj, a_class):
     """ Function that returns True/False if obj is an instance of a_class
 
