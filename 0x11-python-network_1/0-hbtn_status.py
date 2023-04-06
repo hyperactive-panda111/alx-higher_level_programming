@@ -1,7 +1,11 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 """ Python script that fetches website"""
 
 
+=======
+''' Python script that fetches website'''
+>>>>>>> 6155015af227d8a0f35ab61bbd5e30e4546e49d4
 import urllib.request
 
 if __name__ == '__main__':
