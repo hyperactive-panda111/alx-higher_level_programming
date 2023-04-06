@@ -7,4 +7,4 @@ import requests
 if __name__ == "__main__":
     site = sys.argv[1]
     req = requests.get(site)
-    print(req.headers.get('X-Requests-Id'))
+    print(req.headers.get('X-Request-Id'))
