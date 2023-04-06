@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-''' Sends request to a given URL and displays the response body'''
+""" Sends request to a given URL and displays the response body"""
 
 import sys
 import urllib.request
