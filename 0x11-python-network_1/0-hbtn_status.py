@@ -1,19 +1,13 @@
 #!/usr/bin/python3
-<<<<<<< HEAD
-""" Python script that fetches website"""
+""" Python script to fetch https://alx-intranet.hbtn.io/status"""
 
-
-=======
-''' Python script that fetches website'''
->>>>>>> 6155015af227d8a0f35ab61bbd5e30e4546e49d4
-import urllib.request
+import urllib
 
 if __name__ == '__main__':
     site = urllib.request.Request('https://alx-intranet.hbtn.io/status')
-    with urllib.request.urlopen(site) as response
-    content = response.read()
-
-    print('Body response:')
-    print('\t- type: {}'.format(type(content)))
-    print('\t- content: {}'.format(content))
-    print('\t- utf8 content: {}'.format(content.decode('utf-8')))
+    with urllib.request.urlopen(site) as response:
+        body = response.read()
+        print("Body response:")
+        print("\t- type: {}".format(type(body)))
+        print("\t- content: {}".format(body))
+        print("\t- utf-8 content: {}".format(body.decode('utf-8')))
